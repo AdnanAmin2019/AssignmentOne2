@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Detail screen: banner, topic icon, red title bar, then scrolling content.
+     The icon, title, and content get filled in by Java in Part H. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Banner: same photo + school-name image as the main screen -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_main_banner"
+            android:contentDescription="@string/header_title" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_main_banner_text"
+            android:contentDescription="@string/header_title" />
+    </FrameLayout>
+
+    <!-- Topic icon (Java sets which image) -->
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/topic_image" />
+
+    <!-- Red title bar (Java sets the text) -->
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- Scrolling content (Java sets the text) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+    </ScrollView>
+</LinearLayout>
