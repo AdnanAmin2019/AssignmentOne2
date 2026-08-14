@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AssignmentOne</string>
+    <string name="header_title">Au Reikura | School of Computing &amp; Mathematical Sciences</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="software_engineering">Software Engineering</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="data_analytics">Data Analytics</string>
+    <string name="topic_image">Topic image</string>
 </resources>

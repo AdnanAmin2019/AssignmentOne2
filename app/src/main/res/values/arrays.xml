@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_images">
+        <item> img_cs </item>
+        <item> img_se </item>
+        <item> img_ma </item>
+        <item> img_da </item>
+    </string-array>
+
+    <string-array name="string_array_titles">
+        <item> Computer Science </item>
+        <item> Software Engineering </item>
+        <item> Mathematics </item>
+        <item> Data Analytics </item>
+    </string-array>
+
+    <string-array name="string_array_content">
+        <item>
+            Studying Computer Science at the University of Waikato, you will learn about software systems and how people and computers interact. You’ll also learn how to create new software, and ensure it is easy for people to use.\n
+            \n
+            Why study Computer Science?\n
+            Computer Science is rapidly changing the world we live in. Ongoing progress in computing and computer technology means that there is a steady need for more qualified computer professionals. The University of Waikato is recognised among the world’s best in computer science, and offers the largest range of advanced courses in New Zealand.\n
+            \n
+            A degree major in Computer Science is flexible, allowing you to focus on a particular area, or to complete a more generalist major. The papers available are carefully designed to ensure you have a good mastery of a particular area and will equip you with the skills you need to succeed in your chosen career.\n
+            \n
+            Waikato is well-recognised internationally for our research, and have especially enjoyed success with open source software development.\n
+            \n
+            Students have the opportunity to work alongside internationally-respected academics on a wide range of exciting and innovative research projects in areas such as:\n
+            \n
+            Computing facilities at Waikato:\n
+            The computing facilities at the University of Waikato are among the best in New Zealand with a cluster of computers for massively parallel processing.\n
+            \n
+            You will also have 24 hour access to computer labs equipped with all the latest computer software, and several labs fully equipped with Mac computers, commonly used in professional design environments.\n
+            \n
+            Career opportunities:\n
+            - Web Architect\n
+            - Business analyst\n
+            - Software Developer\n
+            - Network Architect\n
+            - Mobile App Master\n
+            - Data Miner\n
+            - Usability Architect\n
+        </item>
+
+        <item>
+            Software is everywhere: from spacecraft to smart watches. Software Engineers design, develop, maintain and oversee complex software-intensive projects while assuring their quality.\n
+            \n
+            Why study Software Engineering?\n
+            \n
+            These highly interconnected systems must meet multiple requirements, including correctness, usability, performance, safety and security. They leverage technologies, such as cloud, web, database, networks, mobile, IoT and embedded systems.\n
+            \n
+            During your studies at Waikato, you will develop an understanding of reliable processes and formal methods for software engineering. You will learn how to use systematic techniques to test software systems. You will develop the skills you need to be able to prove that safety-critical systems operate correctly under all possible operating conditions.\n
+            \n
+            You will work with a range of software systems, from operating systems and networks to real-time and embedded systems. You will learn about distributed and parallel systems. You will also develop knowledge and skills relating to engineering, scientific and business application software.\n
+            \n
+            There is a strong connection between critical, complex systems and the people who use them or are affected by them. At Waikato, the relationship between systems and human interaction is emphasised.\n
+            \n
+            You will be able to develop your software development skills by doing 800 hours of real-world work experience. This work is supported by the Cooperative Education Unit. You will be able to work on major research design projects which have a commercial focus and have an opportunity to showcase your work to industry at the annual Engineering Design Show.\n
+            \n
+            You can complete a BE(Hons) in Software Engineering at the University of Waikato. This is an innovative four-year degree. In the first year, you start with programming and building model boats. You progress to advanced programming techniques and computer hardware labs in the second year. In the final two years, you learn a wide variety of software development skills.  As well as these skills, during the degree you’ll study design, marketing and engineering management.\n
+            \n
+            Career opportunities:\n
+            - Chartered Software Engineer\n
+            - Usability Engineer\n
+            - Requirements Engineer\n
+            - Quality Assurance Engineer\n
+            - Cloud Engineer\n
+            - Cyber Security Engineer\n
+            - Embedded Systems Engineer\n
+            - Software Architect\n
+            - Software Researcher\n
+        </item>
+
+        <item>
+            Mathematics is a subject of vital importance that underpins many activities of our modern world.\n
+            \n
+            Why study Mathematics?
+            \n
+            Employers recognise University of Waikato Mathematics graduates for their analytical and problem solving skills as well as their high level of numeracy, which are critical skills for a broad range of jobs.\n
+            \n
+            If you are a graduate with a Mathematics degree, or even with a strong Mathematical component to your degree, you will be a valuable person in todays workforce, with a qualification that appeals to a wide range of employers including banks, insurance companies, schools and government departments.\n
+            \n
+            There is strong employer demand for Mathematicians, due to a shortage of Mathematics graduates and in particular a critical shortage of Mathematics teachers.\n
+            \n
+            Studying Mathematics in combination with another subject means you can work in a number of different fields, such as Chemistry, Biological Sciences, Earth Sciences, Economics, Finance, Engineering (Chemical and Biological Engineering, Civil Engineering, Electrical Engineering, Environmental Engineering, Materials and Process Engineering, Mechanical Engineering, Software Engineering), Physics, Electronics, Banking and Meteorology.\n
+            \n
+            Capable students should consider the flexible double major options in Mathematics and Computer Science, or Mathematics and Data Analytics.\n
+            \n
+            Career Opportunities:\n
+            - Data analyst\n
+            - Financial Analyst\n
+            - IT or Computing Analyst\n
+            - Mathematical Modeler\n
+            - Meteorologist\n
+            - Research Scientist\n
+            - Secondary School Teacher\n
+        </item>
+
+        <item>
+            Enhance productivity and help make more informed decisions, while using your Computer Science and Statistical analysis skills, through Data Analytics.\n
+            \n
+            Why study Data Analytics?\n
+            \n
+            Data Analytics is the combination of Computer Science and Statistics. With the massive amount of data that is collected today, we need to have the computing skills to manipulate and extract relevant data prior to performing statistical analyses, which enables us to make informed decisions in a world where variability is everywhere.\n
+            \n
+            Data Analytics provides you with the skills and techniques for manipulating and administering large databases to extract useful information for statistical analyses.\n
+            \n
+            As a Data Analytics graduate from the University of Waikato you will have the ability to use statistical techniques in a number of industries, from healthcare to travel to energy management.  Your skills will help companies to make better decisions as well as to verify and disprove existing theories.\n
+            \n
+            Computing facilities at Waikato:\n
+            The computing facilities at the University of Waikato are among the best in New Zealand.  Our senior computing laboratory has a network of PCs running Linux and Windows.  All students will have 24 hour access to labs equipped with the latest versions of specialist statistical software packages, including Minitab, R, Mathematica, Matlab and C++.\n
+            \n
+            Career Opportunities:\n
+            - Biometrics\n
+            - Business analyst\n
+            - Data analyst\n
+            - Government statistician\n
+            - Industrial statistician\n
+            - Insurance and finance\n
+            - Market researcher\n
+            - Medical statistician\n
+            - Operational researcher\n
+        </item>
+    </string-array>
+
+</resources>

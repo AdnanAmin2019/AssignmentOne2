@@ -1,24 +1,27 @@
 package com.example.assignmentone;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+    }
+
+    // Runs when any of the four topic buttons is clicked.
+    // Each button's android:tag holds its position (0-3), so one method
+    // can serve all four buttons without any if or switch.
+    public void onTopicClick(View view) {
+        int topicIndex = Integer.parseInt(view.getTag().toString());
+
+        // Show the matching topic title from arrays.xml as confirmation.
+        String[] titles = getResources().getStringArray(R.array.string_array_titles);
+        Toast.makeText(this, titles[topicIndex].trim() + " clicked!", Toast.LENGTH_SHORT).show();
     }
 }
