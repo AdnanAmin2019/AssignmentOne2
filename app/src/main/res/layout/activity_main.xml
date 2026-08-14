@@ -60,9 +60,13 @@
 
                 <ImageButton
                     android:id="@+id/button_computer_science"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_selector"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
                     android:src="@drawable/img_cs"
                     android:contentDescription="@string/computer_science"
                     android:onClick="onTopicClick"
@@ -84,9 +88,13 @@
 
                 <ImageButton
                     android:id="@+id/button_software_engineering"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_selector"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
                     android:src="@drawable/img_se"
                     android:contentDescription="@string/software_engineering"
                     android:onClick="onTopicClick"
@@ -116,9 +124,13 @@
 
                 <ImageButton
                     android:id="@+id/button_mathematics"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_selector"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
                     android:src="@drawable/img_ma"
                     android:contentDescription="@string/mathematics"
                     android:onClick="onTopicClick"
@@ -140,9 +152,13 @@
 
                 <ImageButton
                     android:id="@+id/button_data_analytics"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_selector"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
                     android:src="@drawable/img_da"
                     android:contentDescription="@string/data_analytics"
                     android:onClick="onTopicClick"
