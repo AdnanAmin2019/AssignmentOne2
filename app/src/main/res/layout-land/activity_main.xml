@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main landing screen (LANDSCAPE). Same header, but the four topics
+     sit in ONE horizontal row instead of a 2x2 grid. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ===== Header (same as portrait) ===== -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_main_banner"
+            android:contentDescription="@string/header_title" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_main_banner_text"
+            android:contentDescription="@string/header_title" />
+    </FrameLayout>
+
+    <!-- ===== Red bar ===== -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/red" />
+
+    <!-- ===== Four topics side by side in ONE row ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <!-- Computer Science -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_computer_science"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_cs"
+                android:contentDescription="@string/computer_science"
+                android:onClick="onTopicClick"
+                android:tag="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_science"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Software Engineering -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_software_engineering"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_se"
+                android:contentDescription="@string/software_engineering"
+                android:onClick="onTopicClick"
+                android:tag="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/software_engineering"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Mathematics -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_mathematics"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_ma"
+                android:contentDescription="@string/mathematics"
+                android:onClick="onTopicClick"
+                android:tag="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mathematics"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Data Analytics -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_data_analytics"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_da"
+                android:contentDescription="@string/data_analytics"
+                android:onClick="onTopicClick"
+                android:tag="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data_analytics"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
