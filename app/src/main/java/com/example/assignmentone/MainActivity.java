@@ -7,6 +7,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Main landing screen. Shows the four subject areas and opens
+ * DetailActivity when one of them is tapped.
+ */
 public class MainActivity extends AppCompatActivity {
 
     // The key used to pass the chosen topic's position to DetailActivity.
