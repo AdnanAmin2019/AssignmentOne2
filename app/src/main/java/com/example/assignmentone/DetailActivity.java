@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Detail screen. Shows the title, image, and description for the
- * topic that was selected on the main screen.
+ * topic that was selected on the main screen..
  */
 public class DetailActivity extends AppCompatActivity {
 
